@@ -10,7 +10,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
-    google_api_key="AIzaSyACyvr3iDMDvD4gevmC7U2DG417swRJB_U"
+    google_api_key=""
 )
 
 load_dotenv()
